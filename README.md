@@ -3,7 +3,7 @@ Datatype to handle error Propagation using the rules for multiplication, divisio
 
 It works just by operator overloading all of the operators in the err class to break it up into smaller parts and then it just calculates it in the regular python order of operations. It prints every step that it computes inside of each operator overload so that you can visualize what it is doing.
 
-#How to run
+# How to run
 A simple user interface is provided so you just have to type
 $python3 errorProp.py
 
@@ -13,7 +13,7 @@ Then you can hit enter to continue and type in your formula with python syntax (
 
 The warnings I added occur when you use a number that isn't an err type like the constant pi, but it has no uncertainty so this case it works fine.
 
-Example:
+# Example:
 
 
 └─$ python3 errorProp.py 
