@@ -166,7 +166,7 @@ def main():
             [print(i, "=", err.vars[i]) for i in set(pattern.findall(eq))]
             print()
 
-            print(eq + ' = ' + str(eval(converted))) # don't use eval unless you are the only user (which i am) #fix later
+            print(eq + ' = ' + str(eval(converted))) # don't use eval unless you are the only user 
             print("\n")
 
         except Exception as e:
