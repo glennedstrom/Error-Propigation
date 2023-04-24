@@ -1,7 +1,7 @@
-# Error-Propigation
-Datatype to handle error Propagation using the rules for multiplication, division, addition, subtraction, and exponents. It also shows it's work as you go so it's easier to learn and study.
+# Error-Propagation
+Datatype to handle error Propagation using the rules for multiplication, division, addition, subtraction, and exponents. It also shows its work as you go so it's easier to learn and study.
 
-It works just by operator overloading all of the operators in the err class to break it up into smaller parts and then it just calculates it in the regular python order of operations. It prints every step that it computes inside of each operator overload so that you can visualize what it is doing.
+It works just by operator overloading all of the operators in the err class to break it up into smaller parts and then it just calculates it in the regular Python order of operations. It prints every step that it computes inside of each operator overload so that you can visualize what it is doing.
 
 # How to run
 A simple user interface is provided so you just have to type
@@ -9,9 +9,9 @@ $python3 errorProp.py
 
 to start the program and then you enter a name for each variable then you enter the value then the ± uncertainty
 
-Then you can hit enter to continue and type in your formula with python syntax (** for powers or roots) and I imported pi that you can also use
+Then you can hit enter to continue and type in your formula with Python syntax (** for powers or roots) and I imported pi that you can also use
 
-The warnings I added occur when you use a number that isn't an err type like the constant pi, but it has no uncertainty so this case it works fine.
+The warnings I added occur when you use a number that isn't an err type like the constant pi, but it has no uncertainty so in this case it works fine.
 
 # Example:
 
@@ -25,7 +25,7 @@ h = 124
 h = 124 ± 2.5
 Enter a variable; none to continue: 
 
-Type your equations below, ctrl-c to exit
+Type your equations below, and ctrl-c to exit
 
 pi*r**2*h
 r = 34.0 ± 0.75 ( % 2.2059 )
